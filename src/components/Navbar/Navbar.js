@@ -9,7 +9,7 @@ const Navbar = () => {
 
         <div className='nav-left-section'>
           <div className='nav-log'>
-          <Link to='#' style={{ textDecoration: 'none' }}><h2>LOGO</h2> </Link>
+          <Link to='#' style={{ textDecoration: 'none', color:'black' }}><h2>LOGO</h2> </Link>
           </div>
          
         </div>

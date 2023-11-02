@@ -4,18 +4,53 @@
     box-sizing: border-box;
 }
 .left-main{
-    height: 85vh;
-    padding: 5px;  
+    height: 85vh;  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #ffffff;
     border-radius: 10px;
+    padding-top: 2rem;
+}
+.left-navigation{
+    border-radius: 10px;
 }
 .left-logo{
     display: flex;
     gap: 10px;
-    padding: 10px;
+    padding: .3rem 1.8rem;
+    margin-bottom: .5rem;
+    
+}
+.left-logo p{
+    font-size: large;
+    color: #8D8D8D;
+}
+.left-logo div{
+    height: 2rem;
+    width: 2rem;
+    
+}
+.logo{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #8D8D8D;
+}
+.active {
+ color:#101010;
+ border-left: 2px solid black;
+}
+.active .logo , .active p {
+    color: black;
+}
+.logo1{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #88C2BB;
+}
+.logout p{
+    color: #88C2BB;
+    cursor: pointer;
 }
 .logout-logo{
     padding: 10px;

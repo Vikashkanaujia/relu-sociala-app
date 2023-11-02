@@ -28,9 +28,7 @@
 .login-form h2{
     margin: 10px 0px;
 }
-.login-form label{
-    padding: 40px 0;
-}
+
 .login-form input{
     width: 100%;
     padding: 5px;
@@ -59,4 +57,7 @@
 .login-form span Link{
     text-decoration: none !important;
     
+}
+.error{
+    color: red;
 }

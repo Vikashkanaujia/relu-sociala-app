@@ -58,8 +58,8 @@ const SignUp = () => {
                         <div className='btn'>
                             <button type='submit'>SignUp</button>
                         </div>
-                        <p>Create new account {" "}
-                        <span><Link to="/">Login</Link></span>
+                        <p>Already have an account? {" "}
+                        <span><Link style={{textDecoration:'none' }} to="/">Login</Link></span>
                         </p>
 
                     </form>

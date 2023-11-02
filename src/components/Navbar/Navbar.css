@@ -26,16 +26,11 @@
 }
 .nav-left-section{
     width: 20%;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 30px;
     background-color: #ffffff;
     border-radius: 10px;
 }
-.nav-right-section{
-    width: 20%;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
+
 .nav-search{
     max-width: 400px;
     display: flex;
@@ -60,8 +55,17 @@
     margin-top: 3px;
 }
 .nav-right-section{
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
     background-color: #88C2BB;
 }
+.nav-right-section:hover{
+    background-color: #0EC297;
+    transition: all 1s ease-out;
+}
 .nav-right{
-    padding: 5px 20px;
+    padding-top: 0.8rem;
 }

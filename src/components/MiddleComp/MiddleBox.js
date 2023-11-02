@@ -9,7 +9,7 @@ const MiddleBox = () => {
         <div className="middle-profile">
           <div className="profile">
             <img src={allImports.profile} rel="not" />
-            <div>
+            <div className="user-name">
               <h6>Lara Leones</h6>
               <p>@thewallart</p>
             </div>
@@ -18,19 +18,44 @@ const MiddleBox = () => {
             <allImports.BsThreeDotsVertical />
           </div>
         </div>
-        <div className="post-text">
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. Read More
-          </p>
+        <div className="post-div">
+          <div className="post-text">
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. Read
+              More
+            </p>
+          </div>
+
+          <div className="post-photo">
+            <img className="post-image" src={allImports.post} />
+          </div>
         </div>
-        <div className="post-photo">
-          <img className="post-image" src={allImports.post} />
-        </div>
-        <div className="post-like-and-share">
-          <div className="like"></div>
-          <div className="comment"></div>
-          <div className="share"></div>
+        <div className="activity-sec">
+          <div className="like-d">
+            <div>
+              <allImports.AiOutlineHeart className="like" />
+            </div>
+            <div>
+              <span>9.8k</span>
+            </div>
+          </div>
+          <div className="like-d">
+            <div>
+              <allImports.FaRegComment className="comment" />
+            </div>
+            <div>
+              <span>8.6k</span>
+            </div>
+          </div>
+          <div className="like-d">
+            <div>
+              <allImports.PiShareFatBold className="share" />
+            </div>
+            <div>
+              <span>7.2k</span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -39,8 +64,8 @@ const MiddleBox = () => {
       <div className="middle-card">
         <div className="middle-profile">
           <div className="profile">
-            <img  src={allImports.profile2} />
-            <div>
+            <img src={allImports.profile2} />
+            <div className="user-name">
               <h6>Thomas J.</h6>
               <p>@thecustomcreater</p>
             </div>
@@ -48,7 +73,8 @@ const MiddleBox = () => {
           <div className="three-dot">
             <allImports.BsThreeDotsVertical />
           </div>
-        </div>
+        </div >
+        <div className="post-div">
         <div className="post-text">
           <p>
             It is a long established fact that a reader will be distracted by
@@ -58,10 +84,36 @@ const MiddleBox = () => {
         <div className="post-photo">
           <img className="post-image" src={allImports.post2} />
         </div>
-        <div className="post-like-and-share">
-          <div className="like"></div>
-          <div className="comment"></div>
-          <div className="share"></div>
+        </div>
+        <div className="activity-sec">
+          <div className="like-d">
+            <div>
+              <allImports.AiOutlineHeart className="like" />
+            </div>
+            <div>
+              <span>9.8k</span>
+            </div>
+          </div>
+          <div className="like-d">
+            <div>
+              <allImports.FaRegComment className="comment" />
+            </div>
+            <div>
+              <span>8.6k</span>
+            </div>
+          </div>
+          <div className="like-d">
+            <div>
+              <allImports.PiShareFatBold className="share" />
+            </div>
+            <div>
+              <span>7.2k</span>
+            </div>
+          </div>
+
+          {/* <div className="like-d"><allImports.AiOutlineHeart className="like"/><div className="span"><span >9.8k</span></div></div>
+          <div className="comment-d"><allImports.FaRegComment className="comment"/><div className="span"><span >8.6k</span></div></div>
+          <div className="share"><allImports.PiShareFatBold className="share"/><div className="span"><span >7.2k</span></div></div> */}
         </div>
       </div>
 

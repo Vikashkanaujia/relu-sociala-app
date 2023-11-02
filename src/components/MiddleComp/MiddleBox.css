@@ -1,11 +1,9 @@
-
 .middle-main {
-  padding: 10px 10px;
   background-color: #f5f5f5;
   border-radius: 10px;
 }
 .middle-card {
-  padding: 7px;
+  padding: 0rem;
   margin-bottom: 20px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -14,16 +12,57 @@
   display: flex;
   gap: 10px;
   margin: 5px;
+  padding: 1rem;
 }
 .middle-profile {
   display: flex;
   justify-content: space-between;
 }
-.post-text {
-  padding: 5px;
-  font-size: 5px;
+.user-name {
+  margin-top: 0.5rem;
 }
-.post-photo .post-image{
+.post-text {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #0a0a0a;
+  opacity: 1;
+  line-height: 1.5rem;
+}
+.three-dot {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+.post-div {
+  margin: 5px;
+  padding: 0rem 1rem;
+}
+.post-photo {
+  padding-bottom: 1.5rem;
+}
+.post-photo .post-image {
   width: 100%;
 }
 
+.activity-sec {
+  display: flex;
+  width: 100%;
+  padding: 1.4rem 0.5rem;
+  border-top: 1px solid #f3f3f3;
+  gap: 3rem;
+}
+
+.like-d {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+.like,
+.share,
+.comment {
+  height: 1.5rem;
+  width: 1.5rem;
+}

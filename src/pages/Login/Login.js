@@ -1,5 +1,5 @@
 import '../Login/Login.css'
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { useNavigate,Link } from 'react-router-dom';
 import {signInWithEmailAndPassword} from 'firebase/auth';
 import {auth} from "../../Firebase"
@@ -29,6 +29,7 @@ const Login = () => {
     }
    
 
+
     return (
         <div className='login-Body'>
 
@@ -37,7 +38,7 @@ const Login = () => {
                     <div className='login-form'>
                         <form onSubmit={handleSubmission}>
                             <h2>Login</h2>
-                            <label>Email</label><br />
+                            <label htmlFor='email'>Email</label><br />
                             <input type='email' name='email' onChange={handleForm} placeholder='Enter your email' />
                             <br />
                             <label>Password</label><br />
@@ -47,8 +48,8 @@ const Login = () => {
                             <div className='btn'>
                                 <button type='submit'>Login</button>
                             </div>
-                            <p>Already have an account?{" "}
-                            <span><Link to="/signup">SignUp</Link></span></p>
+                            <p>Create an Account{" "}
+                            <span><Link style={{textDecoration:'none' }} to="/signup">SignUp</Link></span></p>
 
                         </form>
                     </div>
