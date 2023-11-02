@@ -16,7 +16,7 @@
 }
 .middle-section {
   max-width: 60%;
-  max-height: 525px; /*Added*/
+  max-height: 700px; /*Added*/
   overflow: auto;  /*Added*/
   flex: 6;
 }

@@ -8,7 +8,7 @@ const MiddleBox = () => {
       <div className="middle-card">
         <div className="middle-profile">
           <div className="profile">
-            <img src={allImports.profile} rel="not" />
+            <img src={allImports.profile} alt=""/>
             <div className="user-name">
               <h6>Lara Leones</h6>
               <p>@thewallart</p>
@@ -28,7 +28,7 @@ const MiddleBox = () => {
           </div>
 
           <div className="post-photo">
-            <img className="post-image" src={allImports.post} />
+            <img className="post-image" src={allImports.post} alt=""/>
           </div>
         </div>
         <div className="activity-sec">
@@ -64,7 +64,7 @@ const MiddleBox = () => {
       <div className="middle-card">
         <div className="middle-profile">
           <div className="profile">
-            <img src={allImports.profile2} />
+            <img src={allImports.profile2}  alt=""/>
             <div className="user-name">
               <h6>Thomas J.</h6>
               <p>@thecustomcreater</p>
@@ -82,7 +82,7 @@ const MiddleBox = () => {
           </p>
         </div>
         <div className="post-photo">
-          <img className="post-image" src={allImports.post2} />
+          <img className="post-image" src={allImports.post2}  alt=""/>
         </div>
         </div>
         <div className="activity-sec">
