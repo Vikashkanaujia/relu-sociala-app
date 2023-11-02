@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.right-main {
+  max-height: 85vh;
+  overflow: hidden;
+}
+.right-card {
+  width: 195px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  height: 110px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.one {
+  /* background-image: url('../../Assets/photo/pexels-ekaterina-12203460.png'); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.52),
+      rgba(34, 32, 32, 0.73)
+    ),
+    url(../../Assets/photo/pexels-ekaterina-12203460.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+.two {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.52),
+      rgba(34, 32, 32, 0.73)
+    ),
+    url(../../Assets/photo/pexels-genaro-servín-763210.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+.three {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.52),
+      rgba(34, 32, 32, 0.73)
+    ),
+    url(../../Assets/photo/pexels-pixabay-164455.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.four {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.52),
+      rgba(34, 32, 32, 0.73)
+    ),
+    url(../../Assets/photo/pexels-steve-johnson-1269968.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.five {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.52),
+      rgba(34, 32, 32, 0.73)
+    ),
+    url(../../Assets/photo/pexels-fiona-art-5022849.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right-profile {
+  position: absolute;
+  top: 53px;
+  left: 10px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+}
+.right-p-text {
+  margin: 10px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-main{
+    height: 85vh;
+    padding: 5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.left-logo{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.logout-logo{
+    padding: 10px;
+}
